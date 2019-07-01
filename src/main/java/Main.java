@@ -15,6 +15,9 @@ public class Main {
         selectAll();
         insertRecord();
 
+        SupplierController.selectSuppliersWProducts();
+
+
         closeDatabase();
     }
 
@@ -81,5 +84,7 @@ public class Main {
     }
 
 
-
 }
+
+
+
